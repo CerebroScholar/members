@@ -104,6 +104,7 @@ const Memberpage = () => {
             <strong>Data Engineering & Backend API</strong>
           </p>
           <p className="grey-text">
+            Data Collecting & Management, Developing API on AWS.<br />
             I'm interested in Data Engineering, Information Retrieval, Natural
             Language Processing.
           </p>
@@ -114,6 +115,9 @@ const Memberpage = () => {
 		    	*/}
             <a className="p-2 fa-lg ins-ic" href="https://github.com/lis123kr">
               <i className="fa fa-github blue-text"> </i>
+            </a>
+            <a className="p-2 fa-lg" href="mailto:ls123kr@naver.com">
+              <i className="fa fa-envelope blue-text"> </i>
             </a>
           </ul>
         </div>
