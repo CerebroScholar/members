@@ -4,6 +4,8 @@ import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import "./Memberpage.css"
 import ilseopimg from '../img/ilseop.jpg'
+import geonhoimg from '../img/geonho.jpg'
+
 const Memberpage = () => {
 	return(
 		<section className="team-section text-center my-5">
@@ -20,20 +22,23 @@ const Memberpage = () => {
 
 		    <div className="col-lg-4 col-md-6 mb-lg-0 mb-5">
 		      <div className="avatar mx-auto">
-		        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" className="rounded-circle z-depth-1"
+		        <img src={geonhoimg} className="rounded-circle z-depth-1 ilseop"
 		          alt="Sample avatar" />
 		      </div>
-		      <h5 className="font-weight-bold mt-4 mb-3">John Doe</h5>
-		      <p className="text-uppercase blue-text"><strong>Web developer</strong></p>
-		      <p className="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium
-		        doloremque rem laudantium totam aperiam.</p>
+		      <h5 className="font-weight-bold mt-4 mb-3">GeonHo Han</h5>
+		      <p className="text-uppercase blue-text"><strong>Web & Dev Ops & AWS</strong></p>
+		      <p className="grey-text">Code Base management, Integrations, CI/CD System in this project. <br/> Interests are in Data.
+						<br/>  </p>
 		      <ul className="list-unstyled mb-0">
-		                <a className="p-2 fa-lg fb-ic">
-		          <i className="fa fa-facebook blue-text"> </i>
+		                <a className="p-2 fa-lg fb-ic" href="https://github.com/hrg921">
+		          <i className="fa fa-github blue-text"> </i>
 		        </a>
-		                <a className="p-2 fa-lg ins-ic">
-		          <i className="fa fa-instagram blue-text"> </i>
+		                <a className="p-2 fa-lg mail-ic" href="mailto:hrg921@gmail.com">
+		          <i className="fa fa-envelope blue-text"> </i>
 		        </a>
+						<a className="p-2 fa-lg resume-ic" href="https://hrg921.github.io/resume/">
+							<i className="fa fa-file blue-text"> </i>
+						</a>
 		      </ul>
 		    </div>
 		    
