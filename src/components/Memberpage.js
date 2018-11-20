@@ -7,6 +7,9 @@ import ilseopimg from '../img/ilseop.jpg'
 const Memberpage = () => {
 	return(
 		<section className="team-section text-center my-5">
+			<div className="member-navbar member-sticky">
+				  <a href="https://master.cerebroscholar.com">Back</a>
+			</div>
 
 		    <h2 className="h1-responsive font-weight-bold my-5">Members Introduction</h2>
 		    <p className="grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.

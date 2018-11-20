@@ -2,3 +2,32 @@
 	width: 250px;
 	height: 250px;
 }
+
+.member-navbar {
+  overflow: hidden;
+}
+
+.member-navbar a {
+  float: right;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.member-navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.member-navbar a.active {
+  /*color: black;*/
+}
+
+.member-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
